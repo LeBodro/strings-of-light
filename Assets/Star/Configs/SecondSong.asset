@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 371489968b5ecef4db55e2c355dd37ef, type: 3}
+  m_Name: SecondSong
+  m_EditorClassIdentifier: 
+  song: {fileID: 8300000, guid: e8096f73d8cd66f4192bdfe966d1e95c, type: 3}
+  stars:
+  - 0.2559864
+  - 3.2853289
+  - 6.122653
+  - 8.917324
+  - 11.349319
+  - 14.22932
+  - 17.045328
+  - 19.73331
+  - 22.485329
+  - 25.087982
+  - 27.797325
+  - 30.22932
+  prefab: {fileID: 5702317154371249487, guid: 3711846585481a04eac44572fc1c582e, type: 3}
