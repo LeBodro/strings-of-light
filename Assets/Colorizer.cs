@@ -6,8 +6,8 @@ using UnityEngine;
 public class Colorizer : MonoBehaviour
 {
     [SerializeField] private Camera view = null;
-    [SerializeField] private Gradient background;
-    [SerializeField] private Color foreground;
+    [SerializeField] private Gradient background = null;
+    [SerializeField] private Color foreground = Color.white;
     [SerializeField] private float fadeDelay = 1.67f;
 
     private float _foregroundRatio = 0;

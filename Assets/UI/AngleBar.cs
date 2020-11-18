@@ -1,11 +1,9 @@
 ﻿// ©2020 Maxime Boudreault. All Rights Reserved.
 
 using UnityEngine;
-using UnityEngine.UI;
 
 public class AngleBar : MonoBehaviour
 {
-    [SerializeField] private Image fill = null;
     [SerializeField] private float fillRate = 0.5f;
     [SerializeField] private float minAmount = 0.082f;
     [SerializeField] private float maxAmount = 0.419f;
@@ -25,10 +23,6 @@ public class AngleBar : MonoBehaviour
     {
         float halfDelta = 0.5f * (maxAmount - minAmount);
         float amount = (-Mathf.Cos((Time.time - _tZero) * Mathf.PI * 2 * fillRate) + 1) * halfDelta + minAmount;
-        
-#if SOL_USE_FILL
-        fill.fillAmount = amount;
-#endif
 
         arrow.rotation = Quaternion.Euler(0, 0, Mathf.Rad2Deg * (Mathf.Cos((Time.time - _tZero) * Mathf.PI * 2 * fillRate) + 1) - 57);
 

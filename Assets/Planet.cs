@@ -5,9 +5,7 @@ using UnityEngine;
 
 public class Planet : MonoBehaviour
 {
-    [SerializeField] private GameObject friendInSpace = null;
     [SerializeField] private GameObject friendOnEarth = null;
-    [SerializeField] private float power = 5;
 
     public bool Charged { get; set; } = true;
     

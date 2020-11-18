@@ -19,14 +19,14 @@ public class GameController : MonoBehaviour
 
     [Header("UI")]
     [SerializeField] private HeightDisplay heightDisplay = null;
-    [SerializeField] private CanvasGroup ui;
+    [SerializeField] private CanvasGroup ui = null;
     [SerializeField] private AngleBar angleBar = null;
     [SerializeField] private PowerGauge powerGauge = null;
 
     private float _angle = 0;
     private float _power = 0;
     private int _nextPlanetAct = 0;
-    private bool _updateBackground = false;
+    private bool _firstRun = true;
 
     void Start()
     {
@@ -84,6 +84,11 @@ public class GameController : MonoBehaviour
 
     void PrepareBasicPropulsion()
     {
+        if (_firstRun)
+        {
+            _firstRun = false;
+            stars.Boost();
+        }
         hope.FreezeAtStart();
         RevealPropulsionUI();
         stars.ChargeStars();

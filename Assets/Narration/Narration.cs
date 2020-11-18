@@ -7,9 +7,9 @@ using UnityEngine.UI;
 public class Narration : MonoBehaviour
 {
     private const float FadeDelay = 1.67f;
-    
+
     [SerializeField] private Colorizer view = null;
-    [SerializeField] [TextArea(1,7)] private string[] segments = null;
+    [SerializeField] [TextArea(1, 7)] private string[] segments = null;
     [SerializeField] private Text text = null;
     [SerializeField] private Text instruction = null;
 
@@ -18,11 +18,10 @@ public class Narration : MonoBehaviour
 
     public void BeginShowNextSegment(System.Action onEnd)
     {
-        // pause play
         StartCoroutine(ShowSegment(onEnd));
+
         text.canvasRenderer.SetAlpha(0);
         instruction.canvasRenderer.SetAlpha(0);
-        // resume play
     }
 
     public void BeginShowEnding()
@@ -51,12 +50,12 @@ public class Narration : MonoBehaviour
             yield return view.FadeToForeground();
         else
             yield return new WaitForSeconds(FadeDelay);
-        
+
         if (_nextSegmentIndex < segments.Length)
         {
             // show instruction
             instruction.CrossFadeAlpha(1, FadeDelay, false);
-            
+
             // wait for mouse click
             while (!Input.GetMouseButton(0)) yield return null;
 

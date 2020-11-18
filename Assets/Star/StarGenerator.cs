@@ -5,7 +5,7 @@ using UnityEngine;
 
 public class StarGenerator : MonoBehaviour
 {
-    [SerializeField] private SongOfStars[] songs;
+    [SerializeField] private SongOfStars[] songs = null;
     [SerializeField] private AudioSource player = null;
     [SerializeField] private float yThreshold = 3;
     [SerializeField] private AudioClip[] twinkles = null;
@@ -55,11 +55,6 @@ public class StarGenerator : MonoBehaviour
         {
             SetSong(_songIndex);
         }
-    }
-
-    void Start()
-    {
-        SetSong(0);
     }
 
     void SetSong(int index)
