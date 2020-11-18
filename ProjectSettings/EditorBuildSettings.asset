@@ -4,5 +4,14 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/PlatformHacks/PlatformDispatch.unity
+    guid: f0d0b54db00fec746af4cf850723ef58
+  - enabled: 1
+    path: Assets/PlatformHacks/WebGLWarning.unity
+    guid: 391e70cbda95eae40b2d7c789c7becea
+  - enabled: 1
+    path: Assets/Game.unity
+    guid: 2cda990e2423bbf4892e6590ba056729
   m_configObjects: {}
