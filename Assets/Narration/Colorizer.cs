@@ -10,7 +10,7 @@ public class Colorizer : MonoBehaviour
     [SerializeField] private Color foreground = Color.white;
     [SerializeField] private float fadeDelay = 1.67f;
 
-    private float _foregroundRatio = 0;
+    private float _foregroundRatio = 1;
     private float _progress = 0;
 
     public void SetProgress(float value)

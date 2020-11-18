@@ -47,9 +47,8 @@ public class Narration : MonoBehaviour
         _nextSegmentIndex++;
 
         if (!_isEnding)
-            yield return view.FadeToForeground();
-        else
-            yield return new WaitForSeconds(FadeDelay);
+            view.FadeToForeground();
+        yield return new WaitForSeconds(FadeDelay);
 
         if (_nextSegmentIndex < segments.Length)
         {
@@ -64,9 +63,8 @@ public class Narration : MonoBehaviour
             instruction.CrossFadeAlpha(0, FadeDelay, false);
 
             if (!_isEnding)
-                yield return view.FadeToBackground();
-            else
-                yield return new WaitForSeconds(FadeDelay);
+                view.FadeToBackground();
+            yield return new WaitForSeconds(FadeDelay);
 
             onEnd?.Invoke();
         }
