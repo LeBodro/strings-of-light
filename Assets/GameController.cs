@@ -144,5 +144,12 @@ public class GameController : MonoBehaviour
     {
         float normalizedDistanceToSun = hope.transform.position.y / planets[planets.Length - 1].transform.position.y;
         view.SetProgress(normalizedDistanceToSun);
+        
+        #if !UNITY_WEBGL
+        if (Input.GetKeyDown(KeyCode.Escape))
+        {
+            Application.Quit(0);
+        }
+        #endif
     }
 }
