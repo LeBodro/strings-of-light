@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>Unity WebGL Player | Strings of Light</title>
+  </head>
+  <body style="text-align: center">
+	<!--Next line has been changed to remove the 8 pixel wide border around the game canvas.-->
+    <canvas id="unity-canvas" style="padding: 0px; position: absolute; top:0; left:0; height:100vh; width:100vw;"></canvas>
+    <script src="Build/SoL_web0.1.loader.js"></script>
+    <script>
+      createUnityInstance(document.querySelector("#unity-canvas"), {
+        dataUrl: "Build/SoL_web0.1.data.gz",
+        frameworkUrl: "Build/SoL_web0.1.framework.js.gz",
+        codeUrl: "Build/SoL_web0.1.wasm.gz",
+        streamingAssetsUrl: "StreamingAssets",
+        companyName: "Bodro",
+        productName: "Strings of Light",
+        productVersion: "0.1",
+      });
+    </script>
+  </body>
+</html>
