@@ -2,6 +2,7 @@
 
 using System.Collections;
 using UnityEngine;
+using UnityEngine.PlayerLoop;
 using UnityEngine.UI;
 
 public class Narration : MonoBehaviour
@@ -69,4 +70,25 @@ public class Narration : MonoBehaviour
             onEnd?.Invoke();
         }
     }
+    
+#if UNITY_EDITOR
+    [SerializeField] [HideInInspector] private int nextIndex_EditorOnly = 0;
+
+    public void CycleText_EditorOnly()
+    {
+        if (nextIndex_EditorOnly == segments.Length)
+        {
+            text.text = string.Empty;
+            nextIndex_EditorOnly = 0;
+        }
+        else
+        {
+            text.text = segments[nextIndex_EditorOnly];
+            ++nextIndex_EditorOnly;
+            text.SetAllDirty();
+            text.enabled = false;
+            text.enabled = true;
+        }
+    }
+#endif
 }

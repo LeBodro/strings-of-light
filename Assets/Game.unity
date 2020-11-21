@@ -245,6 +245,7 @@ MonoBehaviour:
     End.'
   text: {fileID: 1046010810}
   instruction: {fileID: 1554994669}
+  nextIndex_EditorOnly: 0
 --- !u!1 &36043508
 GameObject:
   m_ObjectHideFlags: 0
