@@ -30,6 +30,10 @@ public class GameController : MonoBehaviour
 
     void Start()
     {
+#if UNITY_ANDROID
+        Screen.sleepTimeout = SleepTimeout.NeverSleep;
+#endif
+        
         ground.OnCollision += ShowFirstAct;
         ui.alpha = 0;
         narration.BeginShowNextSegment(PrepareBasicPropulsion);
