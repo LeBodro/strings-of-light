@@ -1,4 +1,6 @@
-﻿using UnityEngine;
+﻿// ©2020 Maxime Boudreault. All Rights Reserved.
+
+using UnityEngine;
 using UnityEngine.UI;
 
 public class FadeAndDisappear : MonoBehaviour

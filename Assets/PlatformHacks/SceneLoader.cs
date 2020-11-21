@@ -1,4 +1,6 @@
-﻿using System;
+﻿// ©2020 Maxime Boudreault. All Rights Reserved.
+
+using System;
 using System.Collections;
 using UnityEngine;
 using UnityEngine.SceneManagement;

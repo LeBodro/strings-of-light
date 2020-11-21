@@ -1,5 +1,5 @@
-﻿using System.Collections;
-using System.Collections.Generic;
+﻿// ©2020 Maxime Boudreault. All Rights Reserved.
+
 using UnityEditor;
 using UnityEngine;
 
