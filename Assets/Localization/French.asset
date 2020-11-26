@@ -1,0 +1,42 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e688442987b6a0245b769822881bea12, type: 3}
+  m_Name: French
+  m_EditorClassIdentifier: 
+  language: 14
+  locals:
+  - "Pour une meilleure exp\xE9rience, t\xE9l\xE9chargez la version Windows ou Android\r.\n\r\nWebGL
+    n'arrive pas \xE0 synchroniser les sons convenablement."
+  - "Continuer quand m\xEAme"
+  - Appuie pour continuer...
+  - "Tu tentes quelque chose pour la premi\xE8re fois.\nTu sais pourtant que ce sera
+    un \xE9chec.\nN\xE9anmoins, tu essaies."
+  - "On dit qu'il faut \xE9chouer pour r\xE9ussir.\nTu dois comprendre:\nIl faut
+    apprendre pour r\xE9ussir.\nL'\xE9chec fait partie de l'apprentissage.\nQuoiqu'il
+    en soit, tu essaies encore."
+  - "Tes comp\xE9tences s'am\xE9liorent.\nTa passion est palpable.\nSur le chemin,
+    un nouvel ami t'accompagne.\nEnsemble, vous essayez mieux."
+  - "Tes objectifs vascillent?\nPeut-\xEAtre les perds-tu de vue?\nPermets-toi de
+    demander de l'aide.\nPuis essaie \xE0 nouveau."
+  - "Tu ma\xEEtrises ton art.\nTu n'as toujours pas atteint ton r\xEAve.\n\xC0 travers
+    amour et effort, tu t'accomplis.\nTu es quelqu'un qui ose essayer."
+  - "Comme les notes donne un sens \xE0 la musique,\nL'effort en donne un \xE0 la
+    victoire.\nCraindre l'\xE9chec, c'est craindre de r\xE9ussir."
+  - "Maintenant, prends une grande respiration.\nPuis une autre, en pensant \xE0
+    ta vie.\nQuand tu seras pr\xEAt, essaie quelque chose de nouveau.\nMais surtout
+    n'oublie pas..."
+  - "Ose r\xE9essayer."
+  - "Merci d'avoir jou\xE9.\n\n\nUn jeu par Bodro.\nMusique par Caroline Desbiens.\n\n\nFin."
+  - Lune
+  - "V\xE9nus"
+  - Mercure
+  - Soleil

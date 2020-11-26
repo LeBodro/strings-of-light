@@ -2,7 +2,6 @@
 
 using System.Collections;
 using UnityEngine;
-using UnityEngine.PlayerLoop;
 using UnityEngine.UI;
 
 public class Narration : MonoBehaviour
@@ -10,12 +9,18 @@ public class Narration : MonoBehaviour
     private const float FadeDelay = 1.67f;
 
     [SerializeField] private Colorizer view = null;
-    [SerializeField] [TextArea(1, 7)] private string[] segments = null;
+    [SerializeField] private string segmentPrefix = "game.narration.";
     [SerializeField] private Text text = null;
     [SerializeField] private Text instruction = null;
+    [SerializeField] private int segmentCount = 9;
 
     private int _nextSegmentIndex = 0;
     private bool _isEnding = false;
+
+    string GetSegment(int index)
+    {
+        return Localization._($"{segmentPrefix}{index}");
+    }
 
     public void BeginShowNextSegment(System.Action onEnd)
     {
@@ -34,7 +39,7 @@ public class Narration : MonoBehaviour
     {
         _isEnding = true;
         yield return view.FadeToForeground();
-        while (_nextSegmentIndex < segments.Length)
+        while (_nextSegmentIndex < segmentCount)
         {
             yield return StartCoroutine(ShowSegment(null));
         }
@@ -43,7 +48,7 @@ public class Narration : MonoBehaviour
     IEnumerator ShowSegment(System.Action onEnd)
     {
         // fade in text
-        text.text = segments[_nextSegmentIndex];
+        text.text = GetSegment(_nextSegmentIndex);
         text.CrossFadeAlpha(1, FadeDelay, false);
         _nextSegmentIndex++;
 
@@ -51,7 +56,7 @@ public class Narration : MonoBehaviour
             view.FadeToForeground();
         yield return new WaitForSeconds(FadeDelay);
 
-        if (_nextSegmentIndex < segments.Length)
+        if (_nextSegmentIndex < segmentCount)
         {
             // show instruction
             instruction.CrossFadeAlpha(1, FadeDelay, false);
@@ -70,25 +75,4 @@ public class Narration : MonoBehaviour
             onEnd?.Invoke();
         }
     }
-    
-#if UNITY_EDITOR
-    [SerializeField] [HideInInspector] private int nextIndex_EditorOnly = 0;
-
-    public void CycleText_EditorOnly()
-    {
-        if (nextIndex_EditorOnly == segments.Length)
-        {
-            text.text = string.Empty;
-            nextIndex_EditorOnly = 0;
-        }
-        else
-        {
-            text.text = segments[nextIndex_EditorOnly];
-            ++nextIndex_EditorOnly;
-            text.SetAllDirty();
-            text.enabled = false;
-            text.enabled = true;
-        }
-    }
-#endif
 }

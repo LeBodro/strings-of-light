@@ -10,7 +10,8 @@ public class HeightDisplay : MonoBehaviour
     [SerializeField] private Text height = null;
     [SerializeField] private Text goal = null;
     [SerializeField] private Transform heightTarget = null;
-
+    [SerializeField] private string planetLocalPrefix = "game.ui.";
+    
     private bool _visible = false;
     
     private void Start()
@@ -41,7 +42,13 @@ public class HeightDisplay : MonoBehaviour
 
     public void SetGoal(Transform g)
     {
-        goal.text = $"{Mathf.RoundToInt(g.position.y).ToString()} ({g.name})";
+        goal.text = $"{Mathf.RoundToInt(g.position.y).ToString()} ({GetPlanetName(g)})";
+    }
+
+    string GetPlanetName(Transform planet)
+    {
+        string key = $"{planetLocalPrefix}{planet.name.ToLowerInvariant()}";
+        return Localization._(key);
     }
 
     void Update()
