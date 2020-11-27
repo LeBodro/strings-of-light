@@ -46,3 +46,21 @@ MonoBehaviour:
   dictionaries:
   - {fileID: 11400000, guid: 1f162dea4eb123544a84af1a224b03bd, type: 2}
   - {fileID: 11400000, guid: f19c2794010d925409d18a9cc267db18, type: 2}
+  keys:
+  - webglwarning.text
+  - webglwarning.continue
+  - game.ui.instruction
+  - game.narration.0
+  - game.narration.1
+  - game.narration.2
+  - game.narration.3
+  - game.narration.4
+  - game.narration.5
+  - game.narration.6
+  - game.narration.7
+  - game.narration.8
+  - game.ui.moon
+  - game.ui.venus
+  - game.ui.mercury
+  - game.ui.sun
+  - webglwarning.download

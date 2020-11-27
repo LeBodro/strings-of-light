@@ -6,28 +6,9 @@ using UnityEngine;
 public class Localization : MonoBehaviour
 {
     [SerializeField] private LocalizationDictionary[] dictionaries = null;
+    [SerializeField] private List<string> keys = null;
 
     private int _dicId = 0;
-
-    private List<string> _keys = new List<string>
-    {
-        "webglwarning.text",
-        "webglwarning.continue",
-        "game.ui.instruction",
-        "game.narration.0",
-        "game.narration.1",
-        "game.narration.2",
-        "game.narration.3",
-        "game.narration.4",
-        "game.narration.5",
-        "game.narration.6",
-        "game.narration.7",
-        "game.narration.8",
-        "game.ui.moon",
-        "game.ui.venus",
-        "game.ui.mercury",
-        "game.ui.sun",
-    };
 
     private static Localization _instance;
 
@@ -58,7 +39,7 @@ public class Localization : MonoBehaviour
 
     string Get(string key)
     {
-        int index = _keys.IndexOf(key);
+        int index = keys.IndexOf(key);
         if (index > -1) return dictionaries[_dicId].Get(index);
 #if UNITY_EDITOR
         Debug.LogError($"Localization key not found: {key}");
