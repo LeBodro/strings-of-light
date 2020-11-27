@@ -9,6 +9,8 @@ public class FitToRect : MonoBehaviour
     [SerializeField] private RectTransform rect = null;
     [SerializeField] private Transform[] walls = null;
 
+    private bool _wasFullscreen;
+    
     void Reset()
     {
         viewport = GetComponent<Camera>();
@@ -16,15 +18,29 @@ public class FitToRect : MonoBehaviour
 
     void Start()
     {
+        Fit();
+    }
+
+    void Fit()
+    {
+        _wasFullscreen = Screen.fullScreen;
+        
         float height = rect.rect.height;
         float heightDelta = rect.sizeDelta.y;
         
         float ratio = Mathf.Abs(heightDelta / height);
-        Debug.Log(ratio);
         viewport.orthographicSize /= 1 - ratio;
         foreach (Transform wall in walls)
         {
             wall.localPosition /= 1 - ratio * 0.5f;
+        }
+    }
+
+    void Update()
+    {
+        if(Screen.fullScreen != _wasFullscreen)
+        {
+            Fit();
         }
     }
 }
