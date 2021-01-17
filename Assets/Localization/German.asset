@@ -1,0 +1,67 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e688442987b6a0245b769822881bea12, type: 3}
+  m_Name: English
+  m_EditorClassIdentifier: 
+  language: 10
+  locals:
+  - 'For the best experience, download the Windows or Android version.
+    WebGL
+    fails at synchronizing gameplay with sound.'
+  - Continue Anyway
+  - Click to continue...
+  - 'Doing something you have never done before.
+    You know you will fail before
+    even trying.
+    Still, you try.'
+  - 'They say failing is part of the process.
+    You have to understand:
+    Learning
+    is part of the process.
+    Failing is part of learning.
+    Still, you try
+    again.'
+  - 'Your skills improve.
+    Your passion shows.
+    Along the way, you make a
+    like-minded friend.
+    Together, you try better.'
+  - 'Are your goals shifting?
+    Or are you losing sight of them?
+    Allow yourself
+    to ask for help.
+    Then, try again.'
+  - 'You hone your craft.
+    You haven''t reached your dream yet.
+    Through
+    love and effort, you are fulfilled.
+    You are someone who dares trying.'
+  - 'As notes provide meaning to a song,
+    So do efforts to a victory.
+    To
+    fear failure is to fear success.'
+  - 'Now take a moment to breathe.
+    Take another one to think about your life.
+    And
+    when you are ready, try somehing new.
+    But most importantly...'
+  - Dare to try again.
+  - 'Thank you for playing.
+    A game by Bodro.
+    Music by Caroline Desbiens.
+    The
+    End.'
+  - Moon
+  - Venus
+  - Mercury
+  - Sun
+  - Download Strings of Light
