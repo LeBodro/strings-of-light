@@ -10,58 +10,88 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: e688442987b6a0245b769822881bea12, type: 3}
-  m_Name: English
+  m_Name: German
   m_EditorClassIdentifier: 
   language: 10
   locals:
-  - 'For the best experience, download the Windows or Android version.
+  - 'Lade für das beste Spielerlebnis die Windows oder Android Version herunter.
+  
+  
+  
     WebGL
-    fails at synchronizing gameplay with sound.'
-  - Continue Anyway
-  - Click to continue...
-  - 'Doing something you have never done before.
-    You know you will fail before
-    even trying.
-    Still, you try.'
-  - 'They say failing is part of the process.
-    You have to understand:
-    Learning
-    is part of the process.
-    Failing is part of learning.
-    Still, you try
-    again.'
-  - 'Your skills improve.
-    Your passion shows.
-    Along the way, you make a
-    like-minded friend.
-    Together, you try better.'
-  - 'Are your goals shifting?
-    Or are you losing sight of them?
-    Allow yourself
-    to ask for help.
-    Then, try again.'
-  - 'You hone your craft.
-    You haven''t reached your dream yet.
-    Through
-    love and effort, you are fulfilled.
-    You are someone who dares trying.'
-  - 'As notes provide meaning to a song,
-    So do efforts to a victory.
-    To
-    fear failure is to fear success.'
-  - 'Now take a moment to breathe.
-    Take another one to think about your life.
-    And
-    when you are ready, try somehing new.
-    But most importantly...'
-  - Dare to try again.
-  - 'Thank you for playing.
-    A game by Bodro.
-    Music by Caroline Desbiens.
-    The
-    End.'
-  - Moon
+    kann das Spiel nicht mit dem Ton synchronisieren'
+  - Trotzdem fortfahren
+  - Klicke zum Fortsetzen...
+  - 'Mach etwas, das du zuvor noch nie gemacht hast.
+  
+    Du weißt, dass du scheitern wirst, bevor
+    du es versucht hast.
+    
+    Trotzdem versuchst du es.'
+  - 'Es heißt, Scheitern ist Teil des Weges.
+  
+    Du musst verstehen:
+    
+    Lernen
+    ist Teil des Prozesses
+    
+    Scheitern ist Teil des Lernprozesses.
+    
+    Trotzdem versuchts du es
+    erneut.'
+  - 'Deine Fähigkeiten verbessern sich.
+  
+    Deine Leidenschaft zeigt sich.
+    
+    Auf dem Weg findest du einen
+    gleichgesinnten Freund.
+    
+    Gemeinsam versucht ihr besser zu werden.'
+  - 'Verändern sich deine Ziele?
+  
+    Oder verlierst du sie aus dem Blick?
+    
+    Trau dich
+    um Hilfe zu fragen.
+    
+    Dann versuch es nochmal.'
+  - 'Du verbesserst dein Geschick.
+  
+    Du hast dein Ziel noch nicht erreicht.
+    
+    Durch
+    Liebe und Anstrengung fühlst du dich Erfüllt.
+    
+    Du bist jemand, der sich etwas traut.'
+  - 'So wie Noten einem Lied Sinn geben,
+  
+    So führen Anstrengungen zum Ziel.
+    
+    Versagen
+    zu fürchten ist Erfolg zu fürchten.'
+  - 'Nimm dir jetzt einen Moment zum Durchatmen.
+  
+    Nimm dir einen anderen Moment, um über dein Leben nachzudenken.
+    
+    Und
+    wenn du vertig bist, versuch etwas neues.
+    
+    Aber am wichtigsten:'
+  - Trau dich, es nocheinmal zu versuchen.
+  - 'Danke fürs Spielen.
+  
+  
+  
+    Ein Spiel von Bodro.
+    
+    Musik von Caroline Desbiens.
+    
+    
+    
+    Das
+    Ende.'
+  - Mond
   - Venus
-  - Mercury
-  - Sun
-  - Download Strings of Light
+  - Merkur
+  - Sonne
+  - Strings of Light herunterladen
