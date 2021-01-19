@@ -1,0 +1,99 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e688442987b6a0245b769822881bea12, type: 3}
+  m_Name: German
+  m_EditorClassIdentifier: 
+  language: 10
+  locals:
+  - 'Lade für das beste Spielerlebnis die Windows oder Android Version herunter.
+  
+  
+  
+    WebGL
+    kann das Spiel nicht mit dem Ton synchronisieren'
+  - Trotzdem fortfahren
+  - Klicke zum Fortsetzen...
+  - 'Mach etwas, das du zuvor noch nie gemacht hast.
+  
+    Du weißt, dass du scheitern wirst, bevor
+    du es versucht hast.
+    
+    Trotzdem versuchst du es.'
+  - 'Es heißt, Scheitern ist Teil des Prozesses.
+  
+    Du musst verstehen:
+    
+    Lernen
+    ist Teil des Prozesses.
+    
+    Scheitern ist Teil des Lernens.
+    
+    Trotzdem versuchts du es
+    erneut.'
+  - 'Deine Fähigkeiten verbessern sich.
+  
+    Deine Leidenschaft zeigt sich.
+    
+    Auf dem Weg findest du einen
+    gleichgesinnten Freund.
+    
+    Gemeinsam versucht ihr besser zu werden.'
+  - 'Verändern sich deine Ziele?
+  
+    Oder verlierst du sie aus dem Blick?
+    
+    Trau dich
+    um Hilfe zu fragen.
+    
+    Dann versuch es nochmal.'
+  - 'Du verbesserst dein Geschick.
+  
+    Du hast dein Ziel noch nicht erreicht.
+    
+    Durch
+    Liebe und Anstrengung fühlst du dich erfüllt.
+    
+    Du bist jemand, der sich etwas traut.'
+  - 'So wie Noten einem Lied Sinn geben,
+  
+    So führen Anstrengungen zum Ziel.
+    
+    Versagen
+    zu fürchten ist Erfolg zu fürchten.'
+  - 'Nimm dir jetzt einen Moment zum Durchatmen.
+  
+    Nimm dir einen anderen Moment, um über dein Leben nachzudenken.
+    
+    Und
+    wenn du vertig bist, versuch etwas neues.
+    
+    Aber am wichtigsten:'
+  - Trau dich, es nocheinmal zu versuchen.
+  - 'Danke fürs Spielen.
+  
+  
+  
+    Ein Spiel von Bodro.
+    
+    Musik von Caroline Desbiens.
+    
+    Übersetzt von Natowi.
+    
+    
+    
+    Das
+    Ende.'
+  - Mond
+  - Venus
+  - Merkur
+  - Sonne
+  - Strings of Light herunterladen
