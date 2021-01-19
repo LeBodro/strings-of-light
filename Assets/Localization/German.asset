@@ -12,86 +12,33 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e688442987b6a0245b769822881bea12, type: 3}
   m_Name: German
   m_EditorClassIdentifier: 
-  language: 10
+  language: 15
   locals:
-  - 'Lade für das beste Spielerlebnis die Windows oder Android Version herunter.
-  
-  
-  
-    WebGL
-    kann das Spiel nicht mit dem Ton synchronisieren'
+  - "Lade f\xFCr das beste Spielerlebnis die Windows oder Android Version herunter.\n\n\nWebGL
+    kann das Spiel nicht mit dem Ton synchronisieren"
   - Trotzdem fortfahren
   - Klicke zum Fortsetzen...
-  - 'Mach etwas, das du zuvor noch nie gemacht hast.
-  
-    Du weißt, dass du scheitern wirst, bevor
-    du es versucht hast.
-    
-    Trotzdem versuchst du es.'
-  - 'Es heißt, Scheitern ist Teil des Prozesses.
-  
-    Du musst verstehen:
-    
-    Lernen
-    ist Teil des Prozesses.
-    
-    Scheitern ist Teil des Lernens.
-    
-    Trotzdem versuchts du es
-    erneut.'
-  - 'Deine Fähigkeiten verbessern sich.
-  
-    Deine Leidenschaft zeigt sich.
-    
-    Auf dem Weg findest du einen
-    gleichgesinnten Freund.
-    
-    Gemeinsam versucht ihr besser zu werden.'
-  - 'Verändern sich deine Ziele?
-  
-    Oder verlierst du sie aus dem Blick?
-    
-    Trau dich
-    um Hilfe zu fragen.
-    
-    Dann versuch es nochmal.'
-  - 'Du verbesserst dein Geschick.
-  
-    Du hast dein Ziel noch nicht erreicht.
-    
-    Durch
-    Liebe und Anstrengung fühlst du dich erfüllt.
-    
-    Du bist jemand, der sich etwas traut.'
-  - 'So wie Noten einem Lied Sinn geben,
-  
-    So führen Anstrengungen zum Ziel.
-    
-    Versagen
-    zu fürchten ist Erfolg zu fürchten.'
-  - 'Nimm dir jetzt einen Moment zum Durchatmen.
-  
-    Nimm dir einen anderen Moment, um über dein Leben nachzudenken.
-    
-    Und
-    wenn du vertig bist, versuch etwas neues.
-    
-    Aber am wichtigsten:'
+  - "Mach etwas, das du zuvor noch nie gemacht hast.\nDu wei\xDFt, dass du scheitern
+    wirst, bevor du es versucht hast.\nTrotzdem versuchst du es."
+  - "Es hei\xDFt, Scheitern ist Teil des Prozesses.\nDu musst verstehen:\nLernen
+    ist Teil des Prozesses.\nScheitern ist Teil des Lernens.\nTrotzdem versuchts
+    du es erneut."
+  - "Deine F\xE4higkeiten verbessern sich.\nDeine Leidenschaft zeigt sich.\nAuf dem
+    Weg findest du einen gleichgesinnten Freund.\nGemeinsam versucht ihr besser zu
+    werden."
+  - "Ver\xE4ndern sich deine Ziele?\nOder verlierst du sie aus dem Blick?\nTrau dich
+    um Hilfe zu fragen.\nDann versuch es nochmal."
+  - "Du verbesserst dein Geschick.\nDu hast dein Ziel noch nicht erreicht.\nDurch
+    Liebe und Anstrengung f\xFChlst du dich erf\xFCllt.\nDu bist jemand, der sich
+    etwas traut."
+  - "So wie Noten einem Lied Sinn geben,\nSo f\xFChren Anstrengungen zum Ziel.\nVersagen
+    zu f\xFCrchten ist Erfolg zu f\xFCrchten."
+  - "Nimm dir jetzt einen Moment zum Durchatmen.\nNimm dir einen anderen Moment,
+    um \xFCber dein Leben nachzudenken.\nUnd wenn du vertig bist, versuch etwas neues.\nAber
+    am wichtigsten:"
   - Trau dich, es nocheinmal zu versuchen.
-  - 'Danke fürs Spielen.
-  
-  
-  
-    Ein Spiel von Bodro.
-    
-    Musik von Caroline Desbiens.
-    
-    Übersetzt von Natowi.
-    
-    
-    
-    Das
-    Ende.'
+  - "Danke f\xFCrs Spielen.\n\n\nEin Spiel von Bodro.\nMusik von Caroline Desbiens.\n\xDCbersetzt
+    von Natowi.\n\n\nDas Ende."
   - Mond
   - Venus
   - Merkur

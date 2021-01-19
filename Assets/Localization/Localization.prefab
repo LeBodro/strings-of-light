@@ -46,6 +46,7 @@ MonoBehaviour:
   dictionaries:
   - {fileID: 11400000, guid: 1f162dea4eb123544a84af1a224b03bd, type: 2}
   - {fileID: 11400000, guid: f19c2794010d925409d18a9cc267db18, type: 2}
+  - {fileID: 11400000, guid: 377f307bcbb86c4428ad43b8f40ecb41, type: 2}
   keys:
   - webglwarning.text
   - webglwarning.continue
